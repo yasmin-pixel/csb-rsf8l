@@ -1,0 +1,106 @@
+body {
+  background-image: url("space.jpg");
+}
+
+#btnone {
+  font-size: 15px;
+  box-shadow: 2px 6px 20px rgb(206, 130, 250);
+  padding: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 6px;
+  margin: 50px;
+  background-color: rgb(53, 143, 226);
+  color: white;
+  text-decoration: none;
+  font-family: roboto;
+}
+.header {
+  display: inline;
+}
+h2 {
+  color: white;
+}
+h1 {
+  display: inline;
+  color: white;
+  width: 200px;
+}
+.icons {
+  display: inline;
+}
+
+#pop-up {
+  display: none;
+  font-size: 30px;
+}
+#myForm {
+  /* width: 500px; */
+  padding: 50px 40px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  color: white;
+  margin-top: 100px;
+  background: blueviolet;
+}
+#random-movie-button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px;
+  background-color: white;
+  color: black;
+  border: 2px solid #8cd400a3;
+}
+#random-Tv-shows-button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px;
+  background-color: white;
+  color: black;
+  border: 2px solid #8cd400a3;
+}
+
+#register-button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: white;
+  color: black;
+  border: 2px solid #8cd400a3;
+}
+.movies {
+  color: white;
+  display: flexbox;
+  text-align: center;
+  padding-top: 20px;
+}
+.tv-shows {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.column {
+  padding: 10px;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+p {
+  color: white;
+}
+#aboutus-p {
+  padding-top: 110px;
+  width: 500px;
+}
+
+#show-row {
+  justify-content: center;
+}
+#an-row {
+  justify-content: center;
+}
